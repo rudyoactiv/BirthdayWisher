@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Click The Tiles</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Annie Use Your Telescope">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+
+  <div class="firework"></div>
+  <div class="firework"></div>
+  <div class="firework"></div>
+  
+  <h1></h1>
+  <div id="timer"></div>
+  
+  <div id="gif" style="display: none;">
+    <img id="centre-image" src="image_center.jpg" alt="Centre Image">
+    <img id="birthday-hat" src="hat.png" alt="Birthday Hat">
+    <div id="happy-text">Happiest</div>
+    <div id="birthday-text">Birthday</div>
+  </div>
+  
+  <div id="confetti-container"></div>
+  <div class="candle">
+    <div id="flame" class="lit"></div>
+ </div>
+ 
+ <div class="cake"></div>
+ <div class="plate"></div>
+
+  <div id="exp" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; z-index: -1;">
+    <img src="bg.gif" alt="exp gif" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+
+  <!-- side images -->
+
+  
+  <a href="#" onclick="showMessage('Heyyyy'); return false;">
+    <img class="corner-image" id="img1" src="image1.jpg" alt="Image 1">
+  </a>
+  <div id="container">
+    <span id="text1">I.</span>
+    <span id="text2">II.</span>
+    <span id="text3">III.</span>
+    <span id="text4">IV.</span>
+    <span id="text5">V.</span>
+    <span id="text6">VI.</span>
+    <span id="text7">VII.</span>
+    <span id="text8">VIII.</span>
+  </div>
+<a href="#" onclick="showMessage('HAPPY BIRTHDAY 🎉'); return false;">
+  <img class="corner-image" id="img2" src="image2.jpg" alt="Image 2">
+</a>
+
+  <a href="#" onclick="showMessage('Message 1'); return false;">
+    <img class="corner-image" id="img3" src="image3.jpg" alt="Image 3">
+  </a>
+  <a href="#" onclick="showMessage('Message 2'); return false;">
+    <img class="corner-image" id="img4" src="image4.jpg" alt="Image 4">
+  </a>
+  <a href="#" onclick="showMessage('Message 3'); return false;">
+    <img class="corner-image" id="img5" src="image5.jpg" alt="Image 5">
+  </a>
+  <a href="#" onclick="showMessage('Message 4'); return false;">
+    <img class="corner-image" id="img6" src="image6.jpg" alt="Image 6">
+  </a>
+  <a href="#" onclick="showMessage('Message 5'); return false;">
+    <img class="corner-image" id="img7" src="image7.jpg" alt="Image 7">
+  </a>
+
+
+  <a href="https://youtu.be/SbYXkOAoZpI?t=42" target="_blank">
+    <img class="corner-image" id="img8" src="image8.jpg" alt="Image 8">
+  </a>  
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
